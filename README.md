@@ -4,6 +4,12 @@
 # DisplayCLI
 A CLI tool to manage display resolutions on macOS.
 
+## How it works
+This uses Objective-C, Quartz, and Cocoa, which are available on macOS, to control the resolution state and settings.
+This works in most cases, but there may be some cases where it doesn't work.
+If it doesn't work, please create an issue or fix it and submit a pull request.
+If you know the cause of the problem, please let me know.
+
 ## Installation
 
 ### Prerequisites
