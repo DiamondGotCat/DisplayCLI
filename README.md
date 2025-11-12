@@ -1,5 +1,5 @@
 
-<img width="1920" alt="DisplayCLI" src="https://github.com/user-attachments/assets/9878199e-8e7a-4e68-ba31-7350cff3975f" />
+<img width="1920" alt="displaycli" src="https://github.com/user-attachments/assets/a292fa49-91bb-4e4c-aae9-50eb782e8abd" />
 
 # DisplayCLI
 A CLI tool to manage display resolutions on macOS.
