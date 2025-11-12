@@ -3,7 +3,7 @@ import sys
 from nercone_modern.logging import ModernLogging
 from .manager import DisplayManager
 
-logger = ModernLogging("DisplayTool", display_level="INFO")
+logger = ModernLogging("DisplayCLI", display_level="INFO")
 manager = DisplayManager()
 
 def list_displays(args):
