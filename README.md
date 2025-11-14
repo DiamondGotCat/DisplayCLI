@@ -63,12 +63,12 @@ displaycli displays
 ```
 
 ```text example_result.txt
-nercone@macbook ~/D/DisplayCLI> displaycli displays
+nercone@demo ~/D/DisplayCLI> displaycli displays
 DisplayTool INFO     | Available Displays:
 
   ID: 0 | Name: Unknown Display (Main)
     └─ Current: 1710x1112 @2x (HiDPI) at 60.0Hz
-nercone@macbook ~/D/DisplayCLI> 
+nercone@demo ~/D/DisplayCLI> 
 ```
 
 ### List Display's Native Supported Resolutions
@@ -77,14 +77,14 @@ displaycli modes <id of display>
 ```
 
 ```text example_result.txt
-nercone@macbook ~/D/DisplayCLI> displaycli modes 0 
+nercone@demo ~/D/DisplayCLI> displaycli modes 0 
 DisplayTool INFO     | Available modes for display ID 0:
   - 2560 x 1664 @ 60.00Hz (Pixels: 2560x1664)
   - 2560 x 1600 @ 60.00Hz (Pixels: 2560x1600)
   - 2048 x 1332 @ 60.00Hz (Pixels: 2048x1332)
   - 2048 x 1280 @ 60.00Hz (Pixels: 2048x1280)
   - 1920 x 1200 @ 60.00Hz (Pixels: 1920x1200)
-nercone@macbook ~/D/DisplayCLI> 
+nercone@demo ~/D/DisplayCLI> 
 ```
 
 ### Check Display's Current Resolution
@@ -93,12 +93,12 @@ displaycli current <id of display>
 ```
 
 ```text example_result.txt
-nercone@macbook ~/D/DisplayCLI> displaycli current 0
+nercone@demo ~/D/DisplayCLI> displaycli current 0
 DisplayTool INFO     | Current mode for display 'Unknown Display' (ID: 0):
   - Resolution:   1710x1112 @2x (HiDPI)
   - Pixel Size:   3420x2224
   - Refresh Rate: 60.0Hz
-nercone@macbook ~/D/DisplayCLI> 
+nercone@demo ~/D/DisplayCLI> 
 ```
 
 ### Change Display's Resolution (and Refresh Rate)
@@ -109,10 +109,10 @@ sudo displaycli set <id of display> <width> <height> [--refresh <refresh rate>]
 ```
 
 ```text example_result.txt
-nercone@macbook ~/D/DisplayCLI> sudo displaycli set 0 2560 1664 --refresh 60
+nercone@demo ~/D/DisplayCLI> sudo displaycli set 0 2560 1664 --refresh 60
 Password:
 DisplayTool INFO     | Attempting to set display 0 to 2560x1664 @ 60.0Hz
             WARN     | This will change your display resolution. Are you sure? [y/N]y
             INFO     | Display mode changed successfully!
-nercone@macbook ~/D/DisplayCLI> 
+nercone@demo ~/D/DisplayCLI> 
 ```
