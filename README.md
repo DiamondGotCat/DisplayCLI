@@ -19,36 +19,40 @@ If you know the cause of the problem, please let me know.
 
 ## Installation
 
-**Using uv:**
+### using uv (recommended)
 ```sh
 uv tool install displaycli
 ```
 
-**Using pip:**
+### using pip3
+
+**System Python:**
+```sh
+pip3 install displaycli --break-system-packages
+```
+
+**Venv Python:**
 ```sh
 pip3 install displaycli
 ```
 
-**Using pip of system's python:**
-```sh
-/path/to/system/python -m pip install displaycli --break-system-packages
-```
-
 ## Update
 
-**If already installed with uv:**
+### using uv (recommended)
 ```sh
 uv tool install displaycli --upgrade
 ```
 
-**If already installed with pip:**
+### using pip3
+
+**System Python:**
 ```sh
-pip3 install displaycli --upgrade
+pip3 install displaycli --upgrade --break-system-packages
 ```
 
-**If already installed with pip of system's python:**
+**Venv Python:**
 ```sh
-/path/to/system/python -m pip install displaycli --upgrade --break-system-packages
+pip3 install displaycli --upgrade
 ```
 
 ## Usage
