@@ -10,39 +10,27 @@ This works in most cases, but there may be some cases where it doesn't work.
 If it doesn't work, please create an issue or fix it and submit a pull request.
 If you know the cause of the problem, please let me know.
 
-## Installation
-
-### Prerequisites
+## Requiments
 - macOS (Recommend: macOS Catalina 10.15+)
 - Python 3.8+
 - pip/uv [^1]
 
-### 1. Clone this repo
-```sh
-git clone https://github.com/DiamondGotCat/DisplayCLI.git
-```
+## Installation
 
-### 2. Move to inside clone dest
-```sh
-cd DisplayCLI
-```
-
-### 3. Install it
-
-**Using uv `.venv`:**
+**Using uv:**
 ```sh
 # if not exist .venv: uv venv
-uv pip install .
+uv tool install displaycli
 ```
 
 **Using pip:**
 ```sh
-pip3 install .
+pip3 install displaycli
 ```
 
 **Using pip of system's python:**
 ```sh
-/path/to/system/python -m pip install . --break-system-packages
+/path/to/system/python -m pip install displaycli --break-system-packages
 ```
 
 ## Usage
