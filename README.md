@@ -116,3 +116,7 @@ DisplayTool INFO     | Attempting to set display 0 to 2560x1664 @ 60.0Hz
             INFO     | Display mode changed successfully!
 nercone@demo ~/D/DisplayCLI> 
 ```
+
+---
+
+![PyPI - Version](https://img.shields.io/pypi/v/displaycli)
