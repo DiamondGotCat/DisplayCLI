@@ -19,7 +19,6 @@ If you know the cause of the problem, please let me know.
 
 **Using uv:**
 ```sh
-# if not exist .venv: uv venv
 uv tool install displaycli
 ```
 
