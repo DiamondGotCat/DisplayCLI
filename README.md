@@ -34,6 +34,23 @@ pip3 install displaycli
 /path/to/system/python -m pip install displaycli --break-system-packages
 ```
 
+## Update
+
+**If already installed with uv:**
+```sh
+uv tool install displaycli --upgrade
+```
+
+**If already installed with pip:**
+```sh
+pip3 install displaycli --upgrade
+```
+
+**If already installed with pip of system's python:**
+```sh
+/path/to/system/python -m pip install displaycli --upgrade --break-system-packages
+```
+
 ## Usage
 
 ### List Displays
