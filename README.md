@@ -12,8 +12,10 @@ If you know the cause of the problem, please let me know.
 
 ## Requiments
 - macOS (Recommend: macOS Catalina 10.15+)
-- Python 3.8+
-- pip/uv [^1]
+- CPython 3.8+
+- `uv` [PyPI↗︎](https://pypi.org/project/uv/) or `pip3` [PyPI↗︎](https://pypi.org/project/pip/) 
+- `nercone-modern` [PyPI↗︎](https://pypi.org/project/nercone-modern/)
+- `pyobjc` [PyPI↗︎](https://pypi.org/project/pyobjc/)
 
 ## Installation
 
@@ -93,5 +95,3 @@ DisplayTool INFO     | Attempting to set display 0 to 2560x1664 @ 60.0Hz
             INFO     | Display mode changed successfully!
 nercone@macbook ~/D/DisplayCLI> 
 ```
-
-[^1]: To be able to use it from anywhere, you need to have pip installed in your system's python.
